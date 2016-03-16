@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OxHack.Inventory.PhotoTaker", "OxHack.Inventory.PhotoTaker\OxHack.Inventory.PhotoTaker.csproj", "{8A92BBE5-1F2A-47C6-925E-C0445EA9BCBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OxHack.Inventory.Data", "OxHack.Inventory.Data\OxHack.Inventory.Data.csproj", "{E05D86E1-FB39-44EF-AAEA-DABC3EDC0067}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OxHack.Inventory.Data.Csv", "OxHack.Inventory.Data.Csv\OxHack.Inventory.Data.Csv.csproj", "{53037D0D-2E60-4088-8F6C-646B70E5CFAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A92BBE5-1F2A-47C6-925E-C0445EA9BCBA}.Debug|x64.ActiveCfg = Debug|x64
+		{8A92BBE5-1F2A-47C6-925E-C0445EA9BCBA}.Debug|x64.Build.0 = Debug|x64
+		{8A92BBE5-1F2A-47C6-925E-C0445EA9BCBA}.Release|x64.ActiveCfg = Release|x64
+		{8A92BBE5-1F2A-47C6-925E-C0445EA9BCBA}.Release|x64.Build.0 = Release|x64
+		{E05D86E1-FB39-44EF-AAEA-DABC3EDC0067}.Debug|x64.ActiveCfg = Debug|x64
+		{E05D86E1-FB39-44EF-AAEA-DABC3EDC0067}.Debug|x64.Build.0 = Debug|x64
+		{E05D86E1-FB39-44EF-AAEA-DABC3EDC0067}.Release|x64.ActiveCfg = Release|x64
+		{E05D86E1-FB39-44EF-AAEA-DABC3EDC0067}.Release|x64.Build.0 = Release|x64
+		{53037D0D-2E60-4088-8F6C-646B70E5CFAF}.Debug|x64.ActiveCfg = Debug|x64
+		{53037D0D-2E60-4088-8F6C-646B70E5CFAF}.Debug|x64.Build.0 = Debug|x64
+		{53037D0D-2E60-4088-8F6C-646B70E5CFAF}.Release|x64.ActiveCfg = Release|x64
+		{53037D0D-2E60-4088-8F6C-646B70E5CFAF}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
