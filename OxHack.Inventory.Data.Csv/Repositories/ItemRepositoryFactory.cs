@@ -23,14 +23,10 @@ namespace OxHack.Inventory.Data.Csv.Repositories
 			dialog.RestoreDirectory = true;
 			dialog.Multiselect = false;
 
-			FileInfo file;
+			var assmeblyFile = new FileInfo(Assembly.GetEntryAssembly().Location);
+			var file = new FileInfo(Path.Combine(assmeblyFile.DirectoryName, "..\\Files", "_Latest.csv"));
 
-			if (Keyboard.IsKeyDown(Key.LeftCtrl))
-			{
-				var assmeblyFile = new FileInfo(Assembly.GetEntryAssembly().Location);
-				file = new FileInfo(Path.Combine(assmeblyFile.DirectoryName, "Files", "Original.csv"));
-			}
-			else
+			if (Keyboard.IsKeyDown(Key.LeftCtrl) || !file.Exists)
 			{
 				if (dialog.ShowDialog() != DialogResult.OK)
 				{

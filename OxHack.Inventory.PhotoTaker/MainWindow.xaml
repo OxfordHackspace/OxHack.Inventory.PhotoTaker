@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:OxHack.Inventory.PhotoTaker"
 		xmlns:view="clr-namespace:OxHack.Inventory.PhotoTaker.Views"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="1200" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+        Title="Oxford Hackspace - Inventory Photo Taker" Height="600" Width="1200" WindowStartupLocation="CenterScreen" WindowState="Maximized">
     <Grid>
 		<view:MainView/>
 	</Grid>

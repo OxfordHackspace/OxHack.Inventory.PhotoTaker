@@ -28,6 +28,7 @@
 			<DataGrid.Columns>
 				<DataGridTextColumn Binding="{Binding Id}" Header="Id"/>
 				<DataGridTextColumn Binding="{Binding AssignedLocation}" Header="Location"/>
+				<DataGridTextColumn Binding="{Binding Quantity}" Header="Qty"/>
 				<DataGridTextColumn Binding="{Binding Name}" Header="Name"/>
 				<DataGridTextColumn Binding="{Binding HasPhoto}" Header="Has Photo?">
 					<DataGridTextColumn.CellStyle>
