@@ -16,6 +16,9 @@
 			<RowDefinition Height="Auto"/>
 			<RowDefinition Height="Auto"/>
 			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
 			<RowDefinition Height="*"/>
 		</Grid.RowDefinitions>
 		<Grid.Resources>
@@ -36,9 +39,19 @@
 			Text="Name:"/>
 		<TextBlock 
 			Grid.Column="0" Grid.Row="3"
-			Text="Appearance:"/>
+			Text="Manufacturer:"/>
 		<TextBlock 
 			Grid.Column="0" Grid.Row="4"
+			Text="Appearance:"/>
+		<TextBlock 
+			Grid.Column="0" Grid.Row="5"
+			Text="Additional Info:"/>
+		<TextBlock 
+			Grid.Column="0" Grid.Row="6"
+			Text="Spec:"/>
+
+		<TextBlock 
+			Grid.Column="0" Grid.Row="7"
 			Text="Photos:"/>
 
 		<TextBlock 
@@ -50,13 +63,21 @@
 		<TextBlock 
 			Grid.Column="1" Grid.Row="2"
 			Text="{Binding Name}"/>
-
-		<TextBlock
+		<TextBlock 
 			Grid.Column="1" Grid.Row="3"
+			Text="{Binding Manufacturer}"/>
+		<TextBlock
+			Grid.Column="1" Grid.Row="4"
 			Text="{Binding Appearance}"/>
-
+		<TextBlock
+			Grid.Column="1" Grid.Row="5"
+			Text="{Binding AdditionalInformation}"/>
+		<TextBlock
+			Grid.Column="1" Grid.Row="6"
+			Text="{Binding Spec}"/>
+			
 		<ScrollViewer 
-			Grid.Column="1" Grid.Row="4">
+			Grid.Column="1" Grid.Row="7">
 			<ItemsControl
 				ItemsSource="{Binding Photos}"
 				Margin="3">

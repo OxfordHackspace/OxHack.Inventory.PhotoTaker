@@ -60,8 +60,11 @@ namespace OxHack.Inventory.PhotoTaker.ViewModels
 				base.OnPropertyChanged(() => this.Id);
 				base.OnPropertyChanged(() => this.AssignedLocation);
 				base.OnPropertyChanged(() => this.Name);
+				base.OnPropertyChanged(() => this.Manufacturer);
 				base.OnPropertyChanged(() => this.Photos);
 				base.OnPropertyChanged(() => this.Appearance);
+				base.OnPropertyChanged(() => this.AdditionalInformation);
+				base.OnPropertyChanged(() => this.Spec);
 			}
 		}
 
@@ -71,42 +74,24 @@ namespace OxHack.Inventory.PhotoTaker.ViewModels
 			private set;
 		}
 
-		public int Id
-		{
-			get
-			{
-				return this.model.Id;
-			}
-		}
+		public int Id => this.model.Id;
 
-		public String AssignedLocation
-		{
-			get
-			{
-				return this.model.AssignedLocation;
-			}
-		}
+		public String AssignedLocation => this.model.AssignedLocation;
 
-		public String Name
-		{
-			get
-			{
-				return this.model.Name;
-			}
-		}
+		public String Name => this.model.Name;
+
+		public String Manufacturer => this.model.Manufacturer;
+
+		public String Appearance => this.model.Appearance;
+
+		public String AdditionalInformation => this.model.AdditionalInformation;
+
+		public String Spec => this.model.Spec;
 
 		public ObservableCollection<String> Photos
 		{
 			get;
 			private set;
-		}
-
-		public String Appearance
-		{
-			get
-			{
-				return this.model.Appearance;
-			}
 		}
 	}
 }
